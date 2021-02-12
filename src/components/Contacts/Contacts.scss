@@ -1,0 +1,21 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  text-align: start;
+  padding: 1.5rem;
+  padding-top: 1.2rem;
+  grid-area: 2 / 1 / 3 / 2;
+
+  @media (max-width: 768px) {
+    grid-area: 2 / 1 / 3 / 1;
+  }
+
+  & a {
+    color: #de3c4b;
+    text-decoration: none;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}

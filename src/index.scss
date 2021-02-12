@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "CalibreWeb";
+  src: url("//db.onlinewebfonts.com/t/4a0c1d6164df2c0aa88da1437cd38ef1.eot");
+  src: url("//db.onlinewebfonts.com/t/4a0c1d6164df2c0aa88da1437cd38ef1.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/4a0c1d6164df2c0aa88da1437cd38ef1.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/4a0c1d6164df2c0aa88da1437cd38ef1.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/4a0c1d6164df2c0aa88da1437cd38ef1.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/4a0c1d6164df2c0aa88da1437cd38ef1.svg#Copyright Klim Type Foundry")
+      format("svg");
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  // This defines what 1rem is
+  font-size: 62.5%; //1 rem = 10px; 10px/16px (default text size in browsers) = 62.5%
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  display: grid;
+  justify-content: stretch;
+  align-items: center;
+  font-size: 2.4rem;
+  font-family: "CalibreWeb";
+  box-sizing: border-box;
+  background-color: #22304f;
+  min-height: 100vh;
+  height: 100%;
+  color: #fff;
+  line-height: 1.5;
+  font-weight: 400;
+}
