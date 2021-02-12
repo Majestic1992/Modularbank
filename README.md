@@ -5,7 +5,7 @@ Run "npm build" to build for production.
 
 ### Live demo
 
-Live demo is available here: alexmaa4.netlify.app
+Live demo is available here: https://alexmaa4.netlify.app/
 
 ### Technologies
 
